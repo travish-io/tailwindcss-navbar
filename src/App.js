@@ -1,10 +1,10 @@
 import "./App.css";
-import SideBar from "./SideBar";
+import NavBar from "./NavBar";
 
 function App() {
   return (
     <div class="flex">
-      <SideBar />
+      <NavBar />
     </div>
   );
 }

@@ -5,6 +5,11 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      lg: "1200px",
+    },
     extend: {
       colors: {
         primary: "#202225",

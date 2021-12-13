@@ -3,20 +3,20 @@
 @tailwind utilities;
 
 @layer components {
-  .sidebar-icon {
-    @apply relative flex items-center justify-center h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
+  .navbar-icon {
+    @apply relative flex items-center justify-center lg:flex-row h-12 w-12 mt-2 mb-2 mx-auto shadow-lg
     bg-gray-800 text-green-500 rounded-3xl
     hover:bg-green-600 hover:text-white
-    transition-all duration-300 ease-linear cursor-pointer;
+    transition-all duration-700 ease-linear cursor-pointer;
   }
 
-  .sidebar-icon:hover {
+  .navbar-icon:hover {
     @apply rounded-xl;
   }
 
-  .sidebar-tooltip {
-    @apply absolute w-auto p-2 m-2 min-w-max left-14 rounded-md shadow-md
+  .navbar-tooltip {
+    @apply absolute flex items-baseline justify-center w-auto p-2 my-2 ml-0  min-w-max left-14 rounded-md shadow-md
     text-white bg-gray-900 text-xs font-bold
-    transition-all duration-100 scale-0 origin-left;
+    transition-all duration-150 scale-0 origin-left;
   }
 }
